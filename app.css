@@ -1,0 +1,42 @@
+
+.mainContent {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    /* align-items: center; */
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border-radius: 1rem;
+}
+
+#player1 {
+    color: #fff;
+    background-color: rgb(138, 218, 138);
+}
+
+#player2 {
+    color: #fff;
+    background-color: rgb(73, 73, 161);
+}
+
+#reset {
+    color: #fff;
+    background-color: rgb(204, 70, 70);
+}
+
+.livescore {
+    font-size: 50px;
+}
+
+#winner {
+    font-size: 5rem;
+    color:rgb(138, 218, 138);
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+    padding-top: 5rem;
+}
